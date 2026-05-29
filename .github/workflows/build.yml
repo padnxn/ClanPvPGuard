@@ -20,7 +20,7 @@ jobs:
         run: mvn package -B
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ClanPvPGuard
           path: target/ClanPvPGuard-1.0.jar
