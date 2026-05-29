@@ -1,0 +1,8 @@
+name: ClanPvPGuard
+version: 1.0
+main: pl.clanpvpguard.ClanPvPGuard
+api-version: '1.21'
+description: Blokuje PvP miedzy czlonkami tego samego klanu
+authors: [Claude]
+depend:
+  - PlaceholderAPI
